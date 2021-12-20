@@ -21,6 +21,7 @@ body
     body
     {
         max-width: 500px;
+        height: ;
     }
 
     .content
@@ -88,6 +89,11 @@ body
         color: #FFF;
     }
 
+    .content .component-page .nav-menu-page button a #seach-icon
+    {
+        font-size: 2em;
+    }
+
     .container-page .content .images-page img
     {
         position: relative;
@@ -120,6 +126,17 @@ body
         background: #BAE5F5;
         top: 50%;
         left: 30%;
+    }
+
+    .content #footer
+    {
+        position: absolute;
+        z-index: 10;
+        left: 0;
+        bottom: 0px;
+        width: 500px;
+        height: 10vh;
+        background: #232325;
     }
 }
 
